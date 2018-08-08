@@ -1,0 +1,16 @@
+git clone https://github.com/mohamed195111/sammny.git
+
+git status
+
+git add <file_name> to add new fille   
+
+git commit -m "<message>" to make comment 
+
+git commit -am "<message>"to make comment 
+
+git push origin master   to uploade fille  
+
+git pull  to download fille 
+
+
+
