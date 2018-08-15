@@ -1,0 +1,11 @@
+git init 
+git add .
+git config --global user.email"mohamed_sayed195111@yahoo.com"
+git config --list
+git config --global user.name "mohamed195111"
+git clone https://github.com/mohamed195111/sammny.git
+git status
+git add something
+git commit -m something
+git push origin master
+git pull
