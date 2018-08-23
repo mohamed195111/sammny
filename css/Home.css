@@ -1,0 +1,213 @@
+body
+{
+	background-color:#FFFFFF;
+	height:2000px;
+	
+}
+
+.container
+{
+	width:1170px;
+	margin:auto;
+}
+   
+
+.header .slider
+{
+	/* background:#EEEEEE; */
+}
+.header .slider 
+{
+	
+	/* background-image:url('../images/sa2.png'); */
+	/* background-repeat:no-repeat; */
+	/* background-size:cover; */
+	height:500px;
+	overflow:hidden;
+	width:100%;
+	/* background-attachment:fixed; */
+	
+}
+
+.header .slider  img
+{
+	width:100%;
+	height:500px;
+	border-radius:1px;
+	
+}
+
+.main
+{
+	background-color:#BDC3C7;
+	overflow:hidden;
+	border:2px solid #CCC;
+    border-radius:2%;
+	
+}
+
+.main .image
+{
+	float:left;
+	width:30%;
+	padding:5px;
+	margin-right:5px;
+	
+}
+
+.main .image img
+{
+	width:100%;
+	
+}
+.main .info
+{
+	padding:10px;
+	float:left;
+	width:55%;
+	margin-right:94px;
+    margin-top:10px;
+   
+	
+}
+
+.main .info p
+{
+	line-height:1.7;
+	font-weight:bold;
+	font-style:italic;
+	font-size:19px;
+	background-color:#BDC3C7;
+	border:1px solid #CCC;
+	border-radius:5%;
+	padding:4px;
+    
+	
+	
+	
+}
+
+.features
+{
+	background:#ffffff;
+	height:1000px;
+	
+}
+
+.features h1
+{
+	text-align:center;
+	color:#000;
+	margin-top:49px;
+	font-family:Arial sans-serif;
+	font-style:italic;
+}
+
+.features .feat
+{
+	overflow:hidden;
+}
+
+
+.features .feat > div
+{
+	float :left;
+	width:33.33333%;
+	margin-bottom:10px;
+}
+
+.features .feat > div img
+{
+    margin-left: 161px;
+	margin-top:39px
+}
+
+.features .feat > div h3
+{
+	margin-left:128px;
+	
+}
+
+
+
+.features .feat > div h3.resp
+{
+	margin-left:152px;
+}
+
+.features .feat > div h3.tech
+{
+	margin-left:84px;
+}
+
+.features .feat > div h3.read
+{
+	margin-left:173px;
+}
+
+
+.features .feat > div h3.free
+{
+	margin-left:184px;
+}
+
+
+.rr{
+    width:100%;
+	height:2000px;
+    background-color: #f00;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.footer
+{
+	background: #186f6b;
+	color:#ffffff;
+	padding:15px 0;
+	text-align:center;
+	overflow:hidden;
+}
+
+.footer  span
+{
+	margin-top:10px;
+}
+
+/* .footer .list ul */
+/* { */
+	/* list-style:none; */
+	/* padding-left:0; */
+	/* margin:10px 0 0; */
+	/* float:left; */
+/* } */
+.footer .data .list 
+{
+	float:left;
+}
+.footer  .data .list ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin-left:10px;
+	text-decoration:none;
+	
+	
+}
+
+.footer .data .list ul li a
+{
+	color:#ffca96;
+	text-decoration:none;
+}
+.footer .data .font 
+{
+	float:right;
+	margin-right:93px;
+}
+
+.footer .data .font ul a
+{
+	color:#ffffff;
+}
