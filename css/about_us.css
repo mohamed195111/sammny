@@ -1,21 +1,22 @@
 .menu{
 	width: 100%;
-	background: #186f6b;
+	background: #000000;
 	overflow: hidden;
 	position:fixed;
 	height:61px;
 }
+.menu h2{
+	color: #fff;
+    float:left;
+	margin: 15x 10px 10px 0px;
+ 	font-size:24px; 
+ 	margin-left:4px;
+} 
+.menu span.sam{
+	color: #ffca96
+}
 
-
-
-.menu h2
-{color: #fff; float:left;margin: 15x 10px 10px 0px; font-size:24px; margin-left:4px;} 
-
-.menu span.sam{color: #ffca96}
-
-
-.menu ul
-{
+.menu ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -23,14 +24,12 @@
 	margin-top:3px;
 	margin-left:3px;
 }
-
- .menu  ul li
+.menu  ul li
 {
 	float: left;
 }
-
- .menu ul li a{
-	background: #186f6b;
+.menu
+ul li a{
 	text-decoration: none;
 	width: 130px;
 	display: block;
@@ -39,13 +38,12 @@
 	font-family: sans-serif;
 	letter-spacing: 0.5px;	
 }
-
 .menu  li
 {
 	color: #fff;
-}
-
-.menu ul li a:hover{
+}    
+.menu ul
+li a:hover{
 	color: #ff8c1a;
 	/* background-color:#ffffff; */
 	font-size: 20px;
@@ -53,15 +51,16 @@
 
 /* .menu ul li.active a{color:#A52A2A;} */
 
-.menu ul.sign
+.menu
+ul.sign
 {
 	margin-top: 1px;
 	float: right;
 	margin-right:18px;
 }
 
-
-.menu ul.sign li.ar
+.menu
+ul.sign li.ar
 {
 	margin-right: 28px;
 }
@@ -76,4 +75,3 @@ ul.sign li button
 	/* border:1px solid #FFFFFF; */
 	border:none;
 }
- 
