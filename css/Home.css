@@ -12,6 +12,7 @@ body
 {
 	width:1170px;
 	margin:auto;
+	
 }
 
   .header
@@ -19,6 +20,7 @@ body
 	height:1000px;
 	width:100%;
 	background-image:url('../images/background-1747782_1280.jpg');
+	background-size: cover;
 }
 	
 .header .slider 
