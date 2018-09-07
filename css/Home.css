@@ -114,22 +114,27 @@ body
 
 .features
 {
-	background:#ffffff;
-	height:1000px;
+	height:1030px;
+	margin:auto;
+	background:#e0b9b8;
+	padding:10px;
+	border:1px solid #ffffff;
+	border-radius:2%;
 	
 }
 
-.features h1
-{
-	text-align:center;
-	color:#000;
-	margin-top:49px;
-	font-family:Arial sans-serif;
-	font-style:italic;
-}
+/* .features h1 */
+/* { */
+	/* text-align:center; */
+	/* color:#000; */
+	/* margin-top:49px; */
+	/* font-family:Arial sans-serif; */
+	/* font-style:italic; */
+/* } */
 
 .features .feat
 {
+	margin-top:40px;
 	overflow:hidden;
 }
 
@@ -137,7 +142,7 @@ body
 .features .feat > div
 {
 	float :left;
-	width:33.33333%;
+	width:30%;
 	margin-bottom:10px;
 }
 
@@ -153,28 +158,73 @@ body
 	
 }
 
+.features .feat > div p
+{
+	margin-left:90px;
+	font-size:15px;
+	
+}
+
+.features .feat > div h3.supp
+{
+	margin-left:130px;
+	
+}
+
+
+.features .feat > div p.sup
+{
+	margin-left:80px;
+	font-size:15px;
+	
+}
+.features .feat > div img.image
+{
+    margin-left: 115px;
+}
 
 
 .features .feat > div h3.resp
 {
-	margin-left:152px;
+	margin-left:165px;
 }
 
-.features .feat > div h3.tech
+.features .feat > div p.res
 {
-	margin-left:84px;
+	margin-left:100px;
 }
 
-.features .feat > div h3.read
+
+.features .feat > div svg
+
 {
-	margin-left:173px;
+	margin-left:128px;
+	margin-top:15px;
 }
 
+.features .feat > div h3.up
+{
+	margin-left:120px;
+	margin-top:39px;
+	
+}
+
+.features .feat > div h3.fr
+{
+	margin-top:25px;
+}
 
 .features .feat > div h3.free
 {
 	margin-left:184px;
 }
+
+.features .feat > div.support
+{
+	margin-right:550px;
+	margin-top:25px;
+}
+
 
 
 
@@ -357,3 +407,12 @@ section{
 	display:inline-block;
 	margin-top:5px;
 }
+
+
+
+.footer .font  ul a i:hover 
+{
+	color:#000;
+}
+
+	
