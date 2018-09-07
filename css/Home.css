@@ -155,7 +155,6 @@ body
 .features .feat > div h3
 {
 	margin-left:128px;
-	
 }
 
 .features .feat > div p
@@ -191,7 +190,7 @@ body
 
 .features .feat > div p.res
 {
-	margin-left:100px;
+	margin-left:140px;
 }
 
 
@@ -214,9 +213,15 @@ body
 	margin-top:25px;
 }
 
+.features .feat > div.free
+{
+	margin-left:40px;
+}
+
+
 .features .feat > div h3.free
 {
-	margin-left:184px;
+	margin-left:170px;
 }
 
 .features .feat > div.support
