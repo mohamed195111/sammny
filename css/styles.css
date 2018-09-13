@@ -1,0 +1,29 @@
+body
+{
+margin: 0;
+background-image: url('../images/city.jpg');
+height: 100%;
+background-size: cover;
+background-position: center;
+
+
+}
+
+
+.header .menu{
+	width: 100%;
+	background: #186f6b;
+	overflow: auto;
+	position:fixed;
+}
+
+.input{
+
+width:100%;
+padding: 20px;
+box-sizing: border-box;
+margin-bottom: 25px;
+border: 2px solid #e9eaea;
+font-size: 14px;
+border-radius: 5px;
+}
